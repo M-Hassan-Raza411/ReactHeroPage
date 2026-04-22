@@ -1,0 +1,12 @@
+[
+  { "title": "TypeScript", "icon": "FileCode" },
+  { "title": "Node.js", "icon": "Server" },
+  { "title": "React.js", "icon": "Atom" },
+  { "title": "PostgreSQL", "icon": "Database" },
+  { "title": "AWS", "icon": "Cloud" },
+  { "title": "Docker", "icon": "Box" },
+  { "title": "OAuth 2.0", "icon": "ShieldCheck" },
+  { "title": "Grafana", "icon": "BarChart3" },
+  { "title": "GraphQL", "icon": "Share2" },
+  { "title": "Redis", "icon": "Gauge" }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Nexus Dashboard",
+    "desc": "Real-time analytics interface for high-frequency data monitoring.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+  },
+  {
+    "title": "Vault Protocol",
+    "desc": "Secure decentralized asset management with cryptographic integrity.",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0"
+  },
+  {
+    "title": "Cloud Core",
+    "desc": "Scalable microservices infrastructure for enterprise SaaS apps.",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+  },
+  {
+    "title": "Global Mesh",
+    "desc": "Low-latency content delivery network optimized for edge computing.",
+    "image": "https://images.unsplash.com/photo-1569025690938-a00729c9e1f9"
+  },
+  {
+    "title": "Neural Engine",
+    "desc": "Custom AI model deployment pipeline with automated training.",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+  },
+  {
+    "title": "Prism App",
+    "desc": "Cross-platform mobile experience focused on performance and design.",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+  }
+]

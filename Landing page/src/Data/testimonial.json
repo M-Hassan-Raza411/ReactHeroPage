@@ -1,0 +1,20 @@
+[
+  {
+    "quote": "The level of technical depth and attention to detail provided by Precision UI is unparalleled in the industry today.",
+    "name": "Marcus Chen",
+    "role": "CTO, Flux Technologies",
+    "image": "https://i.pravatar.cc/150?u=marcus"
+  },
+  {
+    "quote": "Working with them transformed our legacy infrastructure into a streamlined, high-performance ecosystem within months.",
+    "name": "Sarah J. Williams",
+    "role": "Product Lead, Anthropic",
+    "image": "https://i.pravatar.cc/150?u=sarah"
+  },
+  {
+    "quote": "Their ability to bridge the gap between complex engineering requirements and user-centric design is truly impressive.",
+    "name": "David Rostova",
+    "role": "Lead Architect, Prism Systems",
+    "image": "https://i.pravatar.cc/150?u=david"
+  }
+]
