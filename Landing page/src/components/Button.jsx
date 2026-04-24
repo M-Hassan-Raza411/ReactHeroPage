@@ -2,12 +2,12 @@ import React from 'react'
 
 const PrimaryButton = (props) => {
   return (
-    <button className="primarybtn">{props.text}</button>
+    <a href="#contact" className="primarybtn">{props.text}</a>
   )
 }
 const SecondaryButton = (props) => {
   return (
-    <button className="secondarybtn">{props.text}</button>
+    <a href="#contact" className="secondarybtn">{props.text}</a>
   )
 }
 

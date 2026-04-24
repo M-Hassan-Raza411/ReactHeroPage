@@ -3,7 +3,7 @@ import { PrimaryButton, SecondaryButton } from './Button'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id='home' className='hero'>
       <span className='heroinfo'>Hello, I'm  Hassan Raza</span>
       <h1 className='herotitle'>Full Stack Developer</h1>
       <p className='herodesc'>

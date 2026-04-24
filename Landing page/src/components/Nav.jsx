@@ -6,9 +6,9 @@ const Nav = () => {
     <div className='navbar'>
       <h1 className="logo">Hassan</h1>
       <div className="navlinks">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </div>
       <PrimaryButton text="Hire me" />
     </div>
