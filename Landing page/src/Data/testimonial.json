@@ -16,5 +16,113 @@
     "name": "David Rostova",
     "role": "Lead Architect, Prism Systems",
     "image": "https://i.pravatar.cc/150?u=david"
+  },
+  {
+    "quote": "They turned our rough idea into a structured product that actually makes sense. The clarity they bring is rare.",
+    "name": "Elena Markov",
+    "role": "Product Manager, NexaCore",
+    "image": "https://i.pravatar.cc/150?u=elena"
+  },
+  {
+    "quote": "Fast execution, no unnecessary complexity. Everything they built worked exactly how it was supposed to.",
+    "name": "Jason Cole",
+    "role": "CTO, ByteForge",
+    "image": "https://i.pravatar.cc/150?u=jason"
+  },
+  {
+    "quote": "Every decision had logic behind it. Nothing felt random or rushed.",
+    "name": "Amara Singh",
+    "role": "UX Director, FlowGrid",
+    "image": "https://i.pravatar.cc/150?u=amara"
+  },
+  {
+    "quote": "They think beyond just development. You can tell theres strategy behind the execution.",
+    "name": "Luca Romano",
+    "role": "Founder, Vortex Labs",
+    "image": "https://i.pravatar.cc/150?u=luca"
+  },
+  {
+    "quote": "The UI looks simple, but its clearly backed by solid engineering decisions.",
+    "name": "Sophie Laurent",
+    "role": "Design Lead, PixelNest",
+    "image": "https://i.pravatar.cc/150?u=sophie"
+  },
+  {
+    "quote": "They dont just build features, they solve problems before they even show up.",
+    "name": "Omar Hassan",
+    "role": "Operations Head, DeltaWorks",
+    "image": "https://i.pravatar.cc/150?u=omar"
+  },
+  {
+    "quote": "Clear communication, clean delivery, no confusion at any stage.",
+    "name": "Hana Kim",
+    "role": "Project Lead, NovaEdge",
+    "image": "https://i.pravatar.cc/150?u=hana"
+  },
+  {
+    "quote": "Rare mix of good design sense and strong technical thinking.",
+    "name": "Ethan Brooks",
+    "role": "Senior Engineer, CodeSphere",
+    "image": "https://i.pravatar.cc/150?u=ethan"
+  },
+  {
+    "quote": "Their ability to bridge the gap between complex engineering requirements and user-centric design is truly impressive. Everything felt clean, intentional, and well thought out.",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "name": "David Rostova",
+    "role": "Lead Architect, Prism System"
+  },
+  {
+    "quote": "They turned our rough idea into a structured product that actually makes sense. The clarity they bring is rare.",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "name": "Elena Markov",
+    "role": "Product Manager, NexaCore"
+  },
+  {
+    "quote": "Fast execution, no unnecessary complexity. Everything they built worked exactly how it was supposed to.",
+    "image": "https://randomuser.me/api/portraits/men/76.jpg",
+    "name": "Jason Cole",
+    "role": "CTO, ByteForge"
+  },
+  {
+    "quote": "Every decision had logic behind it. Nothing felt random or rushed.",
+    "image": "https://randomuser.me/api/portraits/women/68.jpg",
+    "name": "Amara Singh",
+    "role": "UX Director, FlowGrid"
+  },
+  {
+    "quote": "They think beyond just development. You can tell theres strategy behind the execution.",
+    "image": "https://randomuser.me/api/portraits/men/12.jpg",
+    "name": "Luca Romano",
+    "role": "Founder, Vortex Labs"
+  },
+  {
+    "quote": "The UI looks simple, but its clearly backed by solid engineering decisions.",
+    "image": "https://randomuser.me/api/portraits/women/21.jpg",
+    "name": "Sophie Laurent",
+    "role": "Design Lead, PixelNest"
+  },
+  {
+    "quote": "They dont just build features, they solve problems before they even show up.",
+    "image": "https://randomuser.me/api/portraits/men/55.jpg",
+    "name": "Omar Hassan",
+    "role": "Operations Head, DeltaWorks"
+  },
+  {
+    "quote": "Clear communication, clean delivery, no confusion at any stage.",
+    "image": "https://randomuser.me/api/portraits/women/39.jpg",
+    "name": "Hana Kim",
+    "role": "Project Lead, NovaEdge"
+  },
+  {
+    "quote": "Rare mix of good design sense and strong technical thinking.",
+    "image": "https://randomuser.me/api/portraits/men/90.jpg",
+    "name": "Ethan Brooks",
+    "role": "Senior Engineer, CodeSphere"
+  },
+  {
+    "quote": "They made our product feel premium without overcomplicating anything.",
+    "image": "https://randomuser.me/api/portraits/women/57.jpg",
+    "name": "Isabella Cruz",
+    "role": "Brand Manager, ElevateX"
   }
 ]

@@ -6,6 +6,7 @@ import TechnicalCards from './components/TechnicalCards'
 import TechnicalSection from './components/TechnicalSection'
 import TestimonialSection from './components/TestimonialSection'
 
+
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
      <ProjectSection />
      <TechnicalSection />
      <TestimonialSection />
+     
     </>
   )
 }
