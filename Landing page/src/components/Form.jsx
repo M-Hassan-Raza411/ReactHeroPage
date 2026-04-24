@@ -21,7 +21,7 @@ function ContactForm() {
   const sendEmail = async (e) => {
     e.preventDefault();
 
-    if (loading) return; // extra safety 🚫
+    if (loading) return; 
 
     setLoading(true);
 
@@ -33,9 +33,7 @@ function ContactForm() {
         import.meta.env.VITE_EMAIL_PUBLIC_KEY
       );
 
-      alert("Sent ✅");
-
-      // optional reset
+    
       setForm({
         name: "",
         useremail: "",
@@ -45,7 +43,7 @@ function ContactForm() {
 
     } catch (error) {
       console.log(error);
-      alert("Failed ❌");
+      
     } finally {
       setLoading(false);
     }
