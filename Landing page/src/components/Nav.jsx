@@ -1,14 +1,15 @@
 import React from 'react'
 import { PrimaryButton } from './Button'
+import { NavLink } from 'react-router-dom'
 
 const Nav = () => {
   return (
     <div className='navbar'>
       <h1 className="logo">Hassan</h1>
       <div className="navlinks">
-        <a href="#home">Home</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/skills">Skills</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
       </div>
       <PrimaryButton text="Hire me" />
     </div>

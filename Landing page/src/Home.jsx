@@ -9,7 +9,7 @@ import  ContactSection  from './components/ContactSection'
 import Footer from './components/Footer'
 
 
-const App = () => {
+const Home= () => {
   return (
     <>
      <Nav />
@@ -23,4 +23,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Home

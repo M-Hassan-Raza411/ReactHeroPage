@@ -1,6 +1,7 @@
 import React from 'react'
 import { PrimaryButton, SecondaryButton } from './Button'
 
+
 const Hero = () => {
   return (
     <div id='home' className='hero'>
