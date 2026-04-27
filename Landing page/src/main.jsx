@@ -14,7 +14,7 @@ import ProjectCard from './components/ProjectCard.jsx';
 import Footer from './components/Footer.jsx';
 import Nav from './components/Nav.jsx';
 import Home from './Home.jsx';
-import TechnicalSection from './components/TechnicalSection.jsx';
+import TestimonialSection from './components/TestimonialSection.jsx';
 
 
 const router = createBrowserRouter([
@@ -23,10 +23,10 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/skills",
+    path: "/testimonials",
     element:<>
         <Nav />
-        <TechnicalSection/>
+          <TestimonialSection />
         <Footer />
     </> ,
   },

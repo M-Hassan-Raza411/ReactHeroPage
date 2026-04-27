@@ -25,12 +25,12 @@
   --btn-primary-bg: var(--accent-primary);
   --btn-primary-hover: var(--accent-secondary);
   --btn-secondary-bg: transparent;
-  --btn-secondary-border: rgba(255, 255, 255, 0.12);
+  --btn-secondary-border: #ffffff1f;
 
   /* ========= HERO EFFECT ========= */
 
   --gradient-hero: radial-gradient(circle at center,
-      rgba(59, 130, 246, 0.15) 0%,
+      rgba(59, 130, 246, 0.15) 30%,
       rgba(11, 15, 26, 1) 100%);
 
 }
@@ -52,6 +52,9 @@ html {
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
+   z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,7 +72,7 @@ html {
   color: var(--text-muted);
   text-decoration: none;
   font-weight: lighter;
-  transition: color 0.3s ease;
+  transition: color .3s ease;
 }
 
 .navlinks a:hover {
@@ -211,6 +214,7 @@ html {
 }
 
 .techcardsection {
+  margin-top: 50px ;
   padding: 5rem 2.5rem;
   background: rgba(255, 253, 235, 0.08);
   border: 1px solid var(--btn-secondary-border);
@@ -269,6 +273,7 @@ html {
 
 
 .TestimonialSection {
+  margin-top: 50px;
   padding: 5rem 2.5rem;
   display: flex;
   flex-direction: column;
@@ -313,7 +318,6 @@ html {
 
 .testimonialCard {
   background: rgba(245, 245, 245, 0.02);
-  /* backdrop-filter: blur(10px); */
   box-shadow: 0 4px 12px rgba(30, 41, 59, 0.15);
   padding: 2rem;
   border-radius: 8px;
@@ -321,6 +325,36 @@ html {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+}
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 50%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.slider-arrow:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.slider-arrow.left {
+  width: 40px;
+  left: -20px;
+}
+.slider-arrow.right {
+  width: 40px;
+  right: -20px;
 }
 
 .quotecontainer {
@@ -353,9 +387,12 @@ html {
   border-radius: 50%;
   object-fit: cover;
 }
+#contact{
+  margin-top: 50px;
+}
 .contactsection {
   padding: 5rem 2.5rem;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   border-radius: 30px;
   background: rgba(255, 255, 255, 0.02);
@@ -450,6 +487,12 @@ html {
 .form .submitbtn:hover {
   background-color: var(--btn-primary-hover);
 }
+.error {
+  color: #EF4444;
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+}
+
 .footer{
   padding: 1rem 2rem;
   text-align: center;
@@ -585,7 +628,7 @@ html {
     width: 100%; 
   }
   .formparent {
-    width: 80%;
+    width: 95%;
   }
   .footer {
     flex-direction: column;
@@ -597,5 +640,14 @@ html {
   .links {
     justify-content: center;
   }
-
+  .slider-arrow.left {
+    width: 30px;
+    height: 30px;
+    left: 2px;
+  }
+  .slider-arrow.right {
+    width: 30px;
+    height: 30px;
+    right: 2px;  
+  }
 }

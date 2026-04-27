@@ -8,7 +8,7 @@ const Nav = () => {
       <h1 className="logo">Hassan</h1>
       <div className="navlinks">
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/skills">Skills</NavLink>
+        <NavLink to="/testimonials">Testimonials</NavLink>
         <NavLink to="/contact">Contact</NavLink>
       </div>
       <PrimaryButton text="Hire me" />
