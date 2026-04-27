@@ -1,5 +1,6 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser"; 
+import { toast } from "sonner";
 
 function ContactForm() {
   const [form, setForm] = useState({
@@ -35,6 +36,7 @@ function ContactForm() {
     } else if (form.message.trim().length < 10) {
       err.message = "Message must be at least 10 characters";
     }
+
 
     return err;
   };
@@ -76,9 +78,15 @@ function ContactForm() {
       });
 
     } catch (error) {
+      toast.error("Failed to send message. Please try again later.",{
+          description: error.text || "An unexpected error occurred.",
+      });
         console.log("Submit error:", error);
     } finally {
       setLoading(false);
+      toast.success("Message sent successfully!", {
+        description: "Thank you for reaching out. I'll get back to you soon!",
+      });
     }
   };
 

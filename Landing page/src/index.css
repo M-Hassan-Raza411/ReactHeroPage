@@ -447,6 +447,11 @@ html {
   padding: 1.5rem;
   border-radius: 8px;
 }
+.custom-toast {
+  border:none !important;
+  border-radius: 28px !important;
+  padding: 1rem   !important;
+}
 .form{
   display: flex;
   flex-direction: column;
